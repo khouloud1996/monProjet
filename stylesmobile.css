@@ -1,0 +1,109 @@
+@media all and (max-width: 1080px)
+{
+body {
+    width: auto;
+}
+#header_principal img{
+    display: flex;
+    justify-content: flex-start;
+}
+#header_principal{
+    flex-direction: column;
+   
+ 
+}
+.menu ul li a{
+    display: flex;
+    justify-content: space-around;
+}
+#formulaire button{
+    visibility: hidden;
+}
+
+    
+.boutons{
+    flex-direction: column;
+}
+.menu ul li a{
+    width: 50%;
+}
+.menu ul li #activites{
+    width: 50%;
+}
+#conteneur_figure{
+    flex-direction: column;
+   
+}
+section{
+  
+    flex-direction: column;
+}
+.bloc_page{
+    flex-direction: column-reverse;
+    
+}
+
+
+
+    #aside
+    {
+      
+        
+        width: auto;
+     flex-direction: column;
+     
+        align-items: center;
+        justify-content: center;
+   border-radius: 0;
+   margin-bottom: 20px;
+   margin-left: 5%;
+   margin-right: 5%;
+    }
+    .figureaside{
+        width: 90%;
+        
+    }
+    #titre_populaire{
+       
+            justify-content:space-between;
+            align-items: baseline;}
+     
+ #hèbergement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: auto;
+     flex-direction: column;
+     border:none;
+     background-color: white;
+     margin-left: 5%;
+     margin-right: 5%;
+
+ }
+ .figure{
+     width: 90%;
+ }
+ #texte{
+     display: flex;
+     justify-content: flex-start;
+ }
+
+.boutons h4{
+    margin-bottom: 15px;
+
+}
+ }
+ #activitees{
+     width: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+ }
+ 
+ footer{
+     flex-direction: column;
+     position: absolute;
+     width: auto;
+ }
+}
