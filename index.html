@@ -9,21 +9,29 @@
     <title>reservia</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/stylesmobile.css">
-    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="stylesmobile.css" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen and (max-width: 1080px)" href="stylesmobile.css" />
+    <link rel="stylesheet" href="css/stylestablette.css">
+    <link rel="stylesheet" media="screen and (max-width: 1920px min-width:1080px )" href="stylestablette.css"/>
 </head>
 
 <body>
 <header id="header_principal">
+    <div id="logo">
+    
     <img src="images/logo/Reservia@3x.png" width="80" height="50" />
+    </div>
 
     <nav class="menu">
 
         <ul>
+          
             <li id="hebergements"><a href="#Hèbergements"> Hèbergements</a></li>
-
+          
+      
             <li><a id="activites" href="#Activités"> Activités</a></li>
-            <li><a href="#S'inscrire"> s'inscrire</a></li>
+         
+            <li><a href="#Sinscrire"> s'inscrire</a></li>
         </ul>
     </nav>
 </header>
@@ -39,7 +47,7 @@
             
                     <i class="fas fa-map-marker-alt"></i>
                     <p> <input type="text" name="Recherche" placeholder="Marseille,France" /></p>
-                    <button name="button">Rechercher</button>
+                    <button name="button"> Rechercher <i class="fas fa-search"></i></button>
             
                 </form>
             </div>
@@ -47,9 +55,10 @@
                 <h4>
                     filtres
                 </h4>
-            
-                <button name="button"><i class="fas fa-money-bill-wave"></i> Favorites</button>
+            <div id="bouton1et2">
+                <button name="button"><i class="fas fa-money-bill-wave"></i> Economique</button>
                 <button name="button"><i class="fas fa-child"></i> Familial</button>
+                </div>
                 <button name="button"><i class="fas fa-heart"></i> Romantique</button>
                 <button name="button"><i class="fas fa-dog"></i> Animaux autorisés</button>
             
@@ -179,8 +188,9 @@
                     <i class="fas fa-star"></i> 
                     <i class="fas fa-star"></i> 
                     <i class="fas fa-star"></i>
-                    
-                    <i class="fas fa-star grey"></i> 
+                    <i class="fas fa-star"></i>
+            
+                   
                    
                 </figcaption>
         
@@ -214,7 +224,8 @@
                     <i class="fas fa-star"></i> 
                     <i class="fas fa-star"></i> 
                     <i class="fas fa-star"></i> 
-                    <i class="fas fa-star"></i>
+                  
+                    <i class="fas fa-star grey"></i> 
                    
                 </figcaption>
             </figure>
@@ -225,6 +236,7 @@
 
         <section id="Activitees">
             <h1 id="Activités">Activitées a Marseille</h1>
+            <div id="bloc_activitees">
             <div id="figure_1">
             <figure>
                 <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
@@ -288,6 +300,7 @@
 
                 </figcaption>
             </figure>
+            </div>
             </div>
             </div>
             

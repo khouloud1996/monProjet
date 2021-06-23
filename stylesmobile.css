@@ -1,16 +1,38 @@
 @media all and (max-width: 1080px)
 {
-body {
+html {
     width: auto;
 }
-#header_principal img{
+.menu ul{
     display: flex;
     justify-content: flex-start;
 }
-#header_principal{
-    flex-direction: column;
-   
+#logo{
+
+ position:relative;
  
+ top : 10px; left : 10px;
+}
+.menu ul #hebergements{
+    border-top: none;
+    flex: 1;
+    border-bottom: solid dodgerblue;
+    padding-bottom: 10px;
+ 
+}
+.menu ul #activites{
+    border-bottom: solid gainsboro;
+    padding-bottom: 15px;
+  
+}
+#header_principal{
+    flex-direction: column; 
+}
+
+
+
+#Sinscrire{
+    align-self: flex-start;
 }
 .menu ul li a{
     display: flex;
@@ -19,10 +41,20 @@ body {
 #formulaire button{
     visibility: hidden;
 }
+#formulaire button i{
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+}
 
     
 .boutons{
     flex-direction: column;
+    
+}
+
+.boutons #bouton1et2{
+    display: flex;
 }
 .menu ul li a{
     width: 50%;
@@ -33,6 +65,15 @@ body {
 #conteneur_figure{
     flex-direction: column;
    
+}
+#conteneur_figure .figure{
+    height: 250px;
+    margin-top: 20px;
+
+}
+#conteneur_figure img{
+    height: 70%;
+
 }
 section{
   
@@ -92,18 +133,59 @@ section{
     margin-bottom: 15px;
 
 }
- }
- #activitees{
-     width: auto;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-    
- }
  
+ #bloc_activitees{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+     
+     flex-direction: column;
+ }
+ #figureaside figcaption{
+     height: 30%;
+ }
+
+ #figure_1{
+    width: 90%; 
+    margin-top: 10px; 
+ }
+ #figure_2{
+     width: 90%;
+     margin-top: 10px;
+ }
+ #figure_3{
+    width: 90%;
+    margin-top: 10px;
+}
+#figure_4{
+    width: 90%;
+    margin-top: 10px;
+}
+#figure_1 img{
+    width: 100%;
+    height: 250px;
+}
+#figure_2 img{
+    width: 100%;
+    height: 250px;
+}
+#figure_3 img{
+    width: 100%;
+    height: 250Px;
+}
+#figure_4 img{
+    width: 100%;
+    height: 250px;
+}
+#hèbergement h1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
  footer{
      flex-direction: column;
-     position: absolute;
-     width: auto;
+   
+     width: 100%;
  }
 }
