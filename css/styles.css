@@ -1,1 +1,598 @@
 
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#header_principal {
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-end;
+
+    
+}
+.menu{
+    width: 60%;
+}
+
+.menu ul
+{
+    display: flex;
+    flex-direction: row;
+    
+    list-style-type: none;
+    justify-content: flex-end;
+ 
+ 
+  
+
+}
+.menu ul li{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 20px ;
+
+   
+ }
+ .menu ul li a{
+     text-decoration: none;
+     color:dodgerblue;
+
+ }
+ .menu ul li #activites{
+     color: black;
+  
+ }
+ .menu ul #hebergements{ 
+     border-top: solid 1px dodgerblue; 
+     
+ }
+ #trouver_votre_hèbergement{
+     margin-top: 30px;
+ }
+#trouver_votre_hèbergement h2{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+#trouver_votre_hèbergement p{
+    font-size: 70%;
+    font-family: 'Raleway', sans-serif;
+    color: darkgray;
+    margin-top: 5;
+    
+}
+
+#formulaire{
+    display: flex;
+    flex-direction: row;
+}
+#formulaire i {
+    background-color: gainsboro;
+    color :black;
+ padding-left: 8px;
+ padding-right: 8px;
+ padding-bottom: 8px;
+ padding-top: 8px;
+ border-bottom-left-radius: 10px;
+border-top-left-radius:10px ;
+ border-right: none;
+
+}
+#formulaire form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline; 
+  
+}
+
+#formulaire p input{
+  
+    background-color: white;
+    outline:0;
+    border-width:thin;
+    border-left: none;
+    padding-top: 9px;
+    padding-bottom: 7px;
+  
+    color: black;
+    display: block;
+    border:peachpuff;
+  
+
+}
+#formulaire p ::placeholder{
+    color: black;
+    font-family:sans-serif;
+    font-weight: bold;
+ 
+    flex-direction: row;
+    padding-left: 10px;
+    border: 1px;
+}
+#remarque  {
+    display: flex;
+    flex-direction: row;
+
+    align-items: baseline;
+margin-right: 10px;
+
+outline: 0;
+
+
+}
+#remarque i {
+    font-size: 2mm;
+    color: dodgerblue;
+    border: solid  mistyrose;
+    
+  border-radius: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px ;
+  padding-right:4px ;
+  padding-left: 4px;
+
+}
+#formulaire button{
+    background-color:dodgerblue;
+    color: white;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-top: 11px;
+    padding-right: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    border-width: thin;
+    border: dodgerblue;
+    font-family: sans-serif;
+    border-left: none;
+}
+#formulaire button i{
+   display: none;
+}
+
+    
+
+
+
+.boutons{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+.boutons h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+.boutons button{
+    background-color: white;
+    color: black;
+    border-width: thin;
+    border-radius: 15px;
+    border-style: solid;
+    border-color:rgb(245, 227, 203);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-variant: normal;
+  margin-right: 20px;
+  padding: 0mm;
+  border-left: none;
+  padding-right: 10px;
+
+}
+.boutons button i{
+    background-color: lightblue;
+    color: blue;
+ padding-left: 9px;
+ padding-right: 9px;
+ padding-bottom: 9px;
+ padding-top: 9px;
+ border-radius: 20px;
+}
+
+
+
+
+#conteneur_figure{
+    display: flex;
+align-items: center;
+flex-wrap: wrap;
+
+margin-left: 4%;
+
+}
+#hèbergement figure{
+    margin: 0;
+}
+
+
+#hèbergement{
+  
+   
+    border: solid  rgb(235, 234, 231);
+    border-radius: 10px;
+    background-color: rgb(235, 234, 231);
+    
+  
+   padding-right: 5px;
+   padding: 0px;
+   width: 900px;
+ 
+}
+
+    
+
+.figure{  
+      
+    background-color:rgb(228, 224, 228);
+    border: solid white;
+border-width: 4px;
+    width: 27%; 
+    height: 170px; 
+    border-radius: 15px;
+     padding: 0;
+   
+    margin-right: 15px;
+    margin-bottom: 20px;
+      border-bottom:0 ;
+    box-shadow: 5px 5px 5px rgb(214, 214, 214);
+}
+
+#hèbergement img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin:0;
+    padding: 0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: no-repeat;
+}
+
+#hèbergement figcaption {
+    background-color:white;
+    color: black;
+    padding: 3px;
+    border-bottom-left-radius:  13px;
+    border-bottom-right-radius: 13px;
+  
+    height:37%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+ 
+
+
+}
+
+#hèbergement i{
+    color: dodgerblue;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  
+}
+
+
+#hèbergement figcaption h2{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.figure p{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+ 
+}
+
+
+#hèbergement h1 {
+  display: flex;
+    text-align: start;
+    align-content: flex-start;
+    width: 300px;
+    height: 40px;
+    margin: 20;
+
+}
+#hèbergement  .grey{
+    color: rgb(190, 190, 190);
+}
+
+
+#texte{
+    margin-top: 10px;
+    margin-left: 33px;
+    font-weight: bold;  
+}
+#titre_populaire{
+    display: flex;
+    color: black;
+    justify-content:space-between;
+    align-items: baseline;
+
+}
+
+
+#aside{
+    
+    border: solid  rgb(235, 234, 231);
+    border-radius: 10px;
+    background-color: rgb(235, 234, 231);
+    margin-left: 40px;
+    padding: 0px;
+    width: 30%;
+    padding: 10px;
+   color: white;
+   font-size: 0.9em;
+ 
+}
+#aside  .grey{
+    color: rgb(190, 190, 190);
+     }
+#aside img{
+  width: 40%;
+    height: 100%;
+    object-fit: cover;
+    margin:0;
+    padding: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:  15px;
+     
+
+}
+
+#aside figure  {
+      
+    background-color:rgb(228, 224, 228);
+    border: thin whitesmoke;
+     border-radius: 15px;
+    margin-left: 1.5%;
+    margin-bottom: 10px;
+    margin-right:1.5% ;
+    border: solid white 4px;
+    display: flex;
+    height: 120px; 
+}
+#aside figcaption{
+    background-color:white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 3px;
+    border-top-right-radius:  13px;
+    border-bottom-right-radius: 13px;
+    width: 70%;
+    padding-left:15px;
+  
+
+}
+#aside p
+{
+    flex-direction: row;
+    margin-bottom: 30px;
+   
+
+    
+
+}
+#aside h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    padding-top: 5px;
+  
+    
+}
+
+
+.figureaside i{
+    
+    color: dodgerblue;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
+   font-size: 15px;
+ 
+ 
+}
+.bloc_page{
+    display: flex;
+}
+#activitees h1{
+  
+  
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1em;
+
+}
+#activitees{
+
+    border-radius: 15px;
+    width: 100%;
+   
+ 
+}
+#bloc_activitees{
+    display: flex;
+}
+
+#activitees figure{
+ 
+    border-radius: 15px;
+    margin:0;
+    box-shadow: 2px 2px 2px rgb(253, 231, 231) ;
+    
+
+
+}
+#activitees figcaption{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border: solid whitesmoke;
+}
+#activitees img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#figure_1{
+ 
+    width: 25%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0;
+
+}
+#figure_1 figcaption{
+    padding-left:10px ;
+    padding-top: 12px;
+}
+#figure_1 img{
+   
+    height: 300px; 
+    border: solid white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0;
+}
+#figure_1 figure{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#figure_2{
+ 
+   width: 25%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+#figure_2 img{
+   
+    height: 100px; 
+    border: solid white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0;}
+
+ #figure_2 figure{
+     margin-right: 10px;
+     margin-left: 10px;
+     
+     
+ } 
+ .img1{
+     margin-bottom: 10px;
+ } 
+ .img1 figcaption{
+     height: 30px;
+     padding-top: 12px;
+     padding-left: 15px;
+ } 
+ 
+ .img2{
+     margin-top: 10px;
+ }
+ .img2 figcaption{
+  height: 30px;
+  padding-top: 12px;
+  padding-left: 15px;
+ }
+
+#figure_3{
+    width: 25%;
+ 
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0;
+}
+#figure_3 img{
+    width: 100% ;
+    height: 300px; 
+    border: solid white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0;
+}
+#figure_3 figcaption{
+    padding-left:10px ;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#figure_3 figure{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+#activitees h2{
+    font-size: 15px;
+    margin: 0;
+}
+#figure_4{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#figure_4 img{
+    
+    height: 100px; 
+    border: solid white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0;}
+    
+
+    #figure_4 figure{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .img3{
+        margin-bottom: 10px;
+    } 
+    .img3 figcaption{
+        height: 30px;
+        padding-top: 12px;
+        padding-left: 15px;
+    } 
+    .img4{
+        margin-top: 10px;
+    }
+    .img4 figcaption{
+     height: 30px;
+     padding-top: 12px;
+     padding-left: 15px;}
+
+     footer{
+         display: flex;
+         justify-content: space-between;
+         border: solid rgb(255, 241, 243);
+         background-color:rgb(255, 241, 243) ;
+         padding-left:0px ;
+     
+         padding-bottom: 45px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin-top: 30px;
+     }
+    

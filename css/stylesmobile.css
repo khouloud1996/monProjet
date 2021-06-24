@@ -1,0 +1,211 @@
+@media all and (max-width: 700px)
+{
+html {
+    width: auto;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding:0;
+}
+.menu{
+    width: 100%;
+}
+#logo{
+
+ position:relative;
+ 
+ top : 10px; left : 10px;
+}
+.menu ul #hebergements{
+    border-top: none;
+   
+    border-bottom: solid dodgerblue;
+    padding-bottom: 10px;
+    width: 50%;
+    text-align: center;
+ 
+}
+.menu ul #activites{
+    border-bottom: solid gainsboro;
+    padding-bottom: 15px;
+    width: 50%;
+    text-align: center;
+    color: black;
+  
+}
+
+
+
+#header_principal{
+    align-items: flex-start;
+    flex-direction: column; 
+}
+
+
+
+#sinscrire{
+    position: absolute;
+    top:20px; right: 15px;
+    font-weight: bold;
+}
+
+.recherche{
+   display: none;
+}
+#formulaire button{
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+
+}
+#formulaire button i{
+  background-color: dodgerblue;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    padding:0;
+
+}
+
+
+    
+.boutons{
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.boutons #bouton1et2{
+    display: flex;
+}
+.menu ul li a{
+    width: 50%;
+}
+.menu ul li #activites{
+    width: 50%;
+}
+#conteneur_figure{
+    flex-direction: column;
+   
+}
+
+#conteneur_figure img{
+    height: 70%;
+
+}
+section{
+  
+    flex-direction: column;
+}
+.bloc_page{
+    flex-direction: column-reverse;
+    
+}
+
+
+
+    #aside
+    {
+      
+        
+        width: auto;
+     flex-direction: column;
+     
+        align-items: center;
+        justify-content: center;
+   border-radius: 0;
+   margin-bottom: 20px;
+   margin-left: 5%;
+   margin-right: 5%;
+    }
+    .figureaside{
+        width: 90%;
+        
+    }
+    #titre_populaire{
+       
+            justify-content:space-between;
+            align-items: baseline;}
+     
+ #hèbergement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: auto;
+     flex-direction: column;
+     border:none;
+     background-color: white;
+     margin-left: 5%;
+     margin-right: 5%;
+
+ }
+ .figure{
+     width: 90%;
+ }
+ #texte{
+     display: flex;
+     justify-content: flex-start;
+ }
+
+.boutons h4{
+    margin-bottom: 15px;
+
+}
+ 
+ #bloc_activitees{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+     
+     flex-direction: column;
+ }
+ #figureaside figcaption{
+     height: 30%;
+ }
+
+ #figure_1{
+    width: 90%; 
+    margin-top: 10px; 
+ }
+ #figure_2{
+     width: 90%;
+     margin-top: 10px;
+ }
+ #figure_3{
+    width: 90%;
+    margin-top: 10px;
+}
+#figure_4{
+    width: 90%;
+    margin-top: 10px;
+}
+#figure_1 img{
+    width: 100%;
+    height: 250px;
+}
+#figure_2 img{
+    width: 100%;
+    height: 250px;
+}
+#figure_3 img{
+    width: 100%;
+    height: 250Px;
+}
+#figure_4 img{
+    width: 100%;
+    height: 250px;
+}
+#hèbergement h1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+ footer{
+     flex-direction: column;
+   
+     width: 100%;
+ }
+}
