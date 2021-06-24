@@ -91,10 +91,7 @@ html {
    
 }
 
-#conteneur_figure img{
-    height: 70%;
 
-}
 section{
   
     flex-direction: column;
@@ -144,6 +141,7 @@ section{
  .figure{
      width: 90%;
  }
+
  #texte{
      display: flex;
      justify-content: flex-start;
@@ -184,21 +182,21 @@ section{
 }
 #figure_1 img{
     width: 100%;
-    height: 250px;
+    height: 150px;
 }
 #figure_2 img{
     width: 100%;
-    height: 250px;
+    height: 150px;
 }
 #figure_3 img{
     width: 100%;
-    height: 250Px;
+    height: 150Px;
 }
 #figure_4 img{
     width: 100%;
-    height: 250px;
+    height: 150px;
 }
-#hèbergement h1{
+#hèbergement h2{
     display: flex;
     justify-content: flex-start;
     margin: 0;

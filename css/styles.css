@@ -62,7 +62,7 @@ body{
     font-size: 70%;
     font-family: 'Raleway', sans-serif;
     color: darkgray;
-    margin-top: 5;
+    margin-top: 5px;
     
 }
 
@@ -147,7 +147,7 @@ outline: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius:10px ;
     border-width: thin;
-    border: dodgerblue;
+    border: rgb(30, 141, 253);
     font-family: sans-serif;
     border-left: none;
 }
@@ -305,7 +305,7 @@ border-width: 4px;
     align-content: flex-start;
     width: 300px;
     height: 40px;
-    margin: 20;
+    margin: 20px;
 
 }
 #hèbergement  .grey{
@@ -331,10 +331,10 @@ border-width: 4px;
     
     border: solid  rgb(235, 234, 231);
     border-radius: 10px;
-    background-color: rgb(235, 234, 231);
+    background-color: rgb(234, 234, 231);
     margin-left: 40px;
     padding: 0px;
-    width: 30%;
+    width: 40%;
     padding: 10px;
    color: white;
    font-size: 0.9em;
@@ -416,7 +416,7 @@ border-width: 4px;
   
   
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 1em;
 
 }
@@ -439,9 +439,14 @@ border-width: 4px;
     border-radius: 15px;
     margin:0;
     box-shadow: 2px 2px 2px rgb(253, 231, 231) ;
+  
     
 
 
+}
+#bloc_activitees figure img{
+    width: 100%;
+    object-fit: cover;
 }
 #activitees figcaption{
     margin-top: 0px;
@@ -548,7 +553,7 @@ border-width: 4px;
     margin-left: 10px;
 
 }
-#activitees h3{
+#bloc_activitees h3{
     font-size: 15px;
     margin: 0;
 }
