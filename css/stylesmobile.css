@@ -21,7 +21,7 @@ html {
 .menu ul #hebergements{
     border-top: none;
    
-    border-bottom: solid dodgerblue;
+    border-bottom: solid #0065FC;
     padding-bottom: 10px;
     width: 50%;
     text-align: center;
@@ -60,7 +60,7 @@ html {
 
 }
 #formulaire button i{
-  background-color: dodgerblue;
+  background-color: #0065FC;
     border-radius: 15px;
     color: white;
     display: flex;

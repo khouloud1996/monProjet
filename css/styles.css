@@ -38,7 +38,7 @@ body{
  }
  .menu ul li a{
      text-decoration: none;
-     color:dodgerblue;
+     color:#0065FC;
 
  }
  .menu ul li #activites{
@@ -46,7 +46,7 @@ body{
   
  }
  .menu ul #hebergements{ 
-     border-top: solid 1px dodgerblue; 
+     border-top: solid 1px #0065FC; 
      
  }
  #trouver_votre_hèbergement{
@@ -71,7 +71,7 @@ body{
     flex-direction: row;
 }
 #formulaire i {
-    background-color: gainsboro;
+    background-color: #f2f2f2;
     color :black;
  padding-left: 8px;
  padding-right: 8px;
@@ -138,7 +138,7 @@ outline: 0;
 
 }
 #formulaire button{
-    background-color:dodgerblue;
+    background-color:#0065FC;
     color: white;
     padding-bottom: 8px;
     padding-left: 10px;
@@ -147,7 +147,7 @@ outline: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius:10px ;
     border-width: thin;
-    border: rgb(30, 141, 253);
+    border: rgb(21, 125, 230);
     font-family: sans-serif;
     border-left: none;
 }
@@ -187,8 +187,8 @@ outline: 0;
 
 }
 .boutons button i{
-    background-color: lightblue;
-    color: blue;
+    background-color: #DEEBFF;
+    color:#0065FC;
  padding-left: 9px;
  padding-right: 9px;
  padding-bottom: 9px;
@@ -272,7 +272,7 @@ border-width: 4px;
 }
 
 #hèbergement i{
-    color: dodgerblue;
+    color: #0065FC;
     margin-top: 5px;
     margin-bottom: 0px;
     padding-top: 0px;
@@ -401,7 +401,7 @@ border-width: 4px;
 
 .figureaside i{
     
-    color: dodgerblue;
+    color: #0065FC;
     margin-top: 5px;
     margin-bottom: 0px;
     
@@ -424,6 +424,7 @@ border-width: 4px;
 
     border-radius: 15px;
     width: 100%;
+    box-shadow: 3px 3px;
    
  
 }
@@ -453,7 +454,7 @@ border-width: 4px;
     margin-bottom: 0px;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
-    border: solid whitesmoke;
+    border: solid rgb(250, 236, 236);
 }
 #activitees img {
     width: 100%;
@@ -471,6 +472,13 @@ border-width: 4px;
 #figure_1 figcaption{
     padding-left:10px ;
     padding-top: 12px;
+    padding-bottom: 15px;
+    border-bottom: solid whitesmoke;
+    border-left:solid whitesmoke ;
+    border-right: solid whitesmoke;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgb(248, 238, 248) 3px 3px 3px;
 }
 #figure_1 img{
    
@@ -517,6 +525,13 @@ border-width: 4px;
      height: 30px;
      padding-top: 12px;
      padding-left: 15px;
+ 
+    border-bottom: solid whitesmoke;
+    border-left:solid whitesmoke ;
+    border-right: solid whitesmoke;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgb(248, 238, 248) 3px 3px 3px;
  } 
  
  .img2{
@@ -526,6 +541,13 @@ border-width: 4px;
   height: 30px;
   padding-top: 12px;
   padding-left: 15px;
+
+    border-bottom: solid whitesmoke;
+    border-left:solid whitesmoke ;
+    border-right: solid whitesmoke;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgb(248, 238, 248) 3px 3px 3px;
  }
 
 #figure_3{
@@ -546,7 +568,14 @@ border-width: 4px;
 #figure_3 figcaption{
     padding-left:10px ;
     padding-top: 12px;
-    padding-bottom: 12px;
+   
+    padding-bottom: 15px;
+    border-bottom: solid whitesmoke;
+    border-left:solid whitesmoke ;
+    border-right: solid whitesmoke;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgb(248, 238, 248) 3px 3px 3px;
 }
 #figure_3 figure{
     margin-right: 10px;
@@ -583,6 +612,13 @@ border-width: 4px;
         height: 30px;
         padding-top: 12px;
         padding-left: 15px;
+     
+    border-bottom: solid whitesmoke;
+    border-left:solid whitesmoke ;
+    border-right: solid whitesmoke;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgb(248, 238, 248) 3px 3px 3px;
     } 
     .img4{
         margin-top: 10px;
@@ -590,11 +626,20 @@ border-width: 4px;
     .img4 figcaption{
      height: 30px;
      padding-top: 12px;
-     padding-left: 15px;}
+     padding-left: 15px;
+    
+     border-bottom: solid whitesmoke;
+     border-left:solid whitesmoke ;
+     border-right: solid whitesmoke;
+     border-bottom-left-radius:15px ;
+     border-bottom-right-radius: 15px;
+     box-shadow: rgb(248, 238, 248) 3px 3px 3px;}
 
      footer{
          display: flex;
          justify-content: space-between;
+       
+         padding-right: 150px;
          border: solid rgb(255, 241, 243);
          background-color:rgb(255, 241, 243) ;
          padding-left:0px ;
