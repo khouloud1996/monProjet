@@ -2,9 +2,10 @@
 {
     .menu ul{
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
         width: 100%;
         padding:0;
+
     }
     .menu{
         width: 100%;
@@ -21,13 +22,14 @@
        
         border-bottom: solid dodgerblue;
         padding-bottom: 10px;
-        width: 50%;
+    
         text-align: center;
      
     }
     .figure{
-        width: 250px;
+       
         margin-left: 15px;
+        width: 40%;
        
     }
     #texte{
@@ -37,7 +39,7 @@
     .menu ul #activites{
         border-bottom: solid gainsboro;
         padding-bottom: 15px;
-        width: 50%;
+       
         text-align: center;
         color: black;
       
@@ -46,21 +48,15 @@
 .boutons{
     display: flex;
     flex-direction: row;
+    
     align-items: baseline;}
 
     #conteneur_figure{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     
-    .figure_ligne_1{
-        display: flex;
-        
-    }
-    .figure_ligne_2{
-        display: flex;
-       
-    }
     .bloc_page{
         flex-direction: column-reverse;
        
@@ -84,30 +80,26 @@
 }
 #hèbergement{
     width: 80%;
-    height: 700px;
+
     margin-left: 7%;
 
  
 }
 
 #bloc_activitees{
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     margin-left: 7%;
+    flex-wrap: wrap;
  
 }
 #activités h1{
     margin-left: 10%;
 }
+#figure_1, #figure_2, #figure_3, #figure_4{
+    width: 40%;
+    margin-bottom: 20px;
+}
 
-  
-#bloc_activitees figure{
-    width: 250px;
-}
-.acti_ligne1{
-    display: flex;
-}
-.acti_ligne2{
-    display: flex;
-}
+
 }
