@@ -430,6 +430,9 @@ border-width: 4px;
 #bloc_activitees{
     display: flex;
 }
+.bloc_page{
+    display: flex;
+}
 
 #activitees figure{
  
